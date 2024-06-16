@@ -154,11 +154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agentPrefab: {fileID: 2075586840570884623, guid: 3a088778299e52e4b8c0b352358b3551, type: 3}
   behavior: {fileID: 11400000, guid: ee8d069e1b7b33a4a9963f9cc0f6ebd2, type: 2}
-  startingCount: 155
-  driveFactor: 50
-  maxSpeed: 10
-  neighbourRadius: 2
-  avoidanceRadiusMultiplier: 0.5
+  startingCount: 20
+  driveFactor: 1
+  maxSpeed: 4.2
+  neighbourRadius: 8.23
+  avoidanceRadiusMultiplier: 0.268
 --- !u!4 &1321945513
 Transform:
   m_ObjectHideFlags: 0
@@ -227,7 +227,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
